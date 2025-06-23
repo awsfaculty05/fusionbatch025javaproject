@@ -18,7 +18,8 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: "awsfaculty/fusion025123:v1"
+        image: "awsfaculty/fusion025123:latest"
+        imagePullPolicy: Always
         ports:
           - containerPort: 5000
 ---
