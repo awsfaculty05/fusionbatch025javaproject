@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
       - name: node-app 
-        image: pdockersavant/nodejs-app:latest 
+        image: awsfaculty/fusion025123:latest 
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000 
